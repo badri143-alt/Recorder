@@ -75,7 +75,7 @@ video{
 }
 
 .timer-container{
-    height:18rem;
+    height:28rem;
     width:5rem;
     position:absolute;
     left:5rem;
@@ -87,15 +87,14 @@ video{
 .timer{
     display: none;
 }
-.timer-container{
-    height:28rem;
+.filter-container{
+    height:16rem;
     width:5rem;
+    background-color: aqua;
     position:absolute;
-    left:5rem;
-    bottom:10rem;
-    color: aqua;
-    font-size:0.8rem;
-    /* top:calc((100vh - 16rem) / 2 ) */
+    top:calc((100vh - 16rem) / 2 );
+    left: 5rem;
+    z-index:2;
 }
 .filter{
     background-image: url("https://picsum.photos/seed/picsum/200/300");
